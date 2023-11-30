@@ -7,6 +7,10 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'header-bg': "url('./src/assets/hero.png')",
+        'header-bg2': "url('./src/assets/road-bg.png')",
+      }
     },
 
     screens: {
